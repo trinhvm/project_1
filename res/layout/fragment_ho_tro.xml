@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context="lesson.HoTro_Fragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout        
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:text="Ứng dụng đơn giản giúp việc học tiếng Anh trở nên tiện lới hơn trên thiết bị di động. Ứng dụng bao gồm hai chức năng chính:"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="20dp"
+          	android:layout_marginLeft="20dp"  
+            android:text="- Học những điểm ngữ pháp cơ bản đã được chia theo từng chủ đề giúp cho việc học trở nên dễ dàng, hiện tại bài học đang được chia làm 4 chủ đề đó là :"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+          	android:layout_marginLeft="40dp"  
+            android:text="+ Thì"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+          	android:layout_marginLeft="40dp"  
+            android:text="+ Từ Loại"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+          	android:layout_marginLeft="40dp"  
+            android:text="+ Cấu Trúc Câu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+          	android:layout_marginLeft="40dp"  
+            android:text="- + Điểm Ngữ Pháp."
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+        	android:layout_margin="10dp"    
+            android:layout_marginLeft="20dp"
+            android:text="- Làm bài tập trắc nghiệm tương ứng với chủ đề ngữ pháp, phần bài tập trắc nghiệm theo chủ đề, với mỗi chủ đề là 10 câu hỏi giúp người dùng củng cố lại kiến thức. Phần bài tập sẽ được bổ sung và hoàn thiện hơn trong những phiên bản sau"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"                
+                android:id="@+id/author"    
+	            android:layout_gravity="right"
+	            android:textSize="12sp"  
+	            android:text="Tác giả: Mai Trình"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"/>
+            
+            <TextView                
+                android:layout_below="@id/author"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"                
+                android:id="@+id/email"         
+	            android:layout_gravity="right"
+	            android:textSize="12sp"  
+	            android:text="Email: maitrinh.only@gmail.com"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"/>
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+</FrameLayout>

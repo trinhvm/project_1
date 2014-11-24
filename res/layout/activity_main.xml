@@ -1,0 +1,98 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerlayout"
+    android:background="#fff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#005aaa"
+                android:id="@+id/thi"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/thi_background"
+                android:gravity="center"
+                android:text="Thì"
+                android:textSize="20sp" />
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#005aaa"
+                android:id="@+id/tuloai"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/thi_background"
+                android:gravity="center"
+                android:text="Từ Loại"
+                android:textSize="20sp" />
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#005aaa"
+                android:id="@+id/cautruccau"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/thi_background"
+                android:gravity="center"
+                android:text="Cấu Trúc Câu"
+                android:textSize="20sp" />
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#005aaa"
+                android:id="@+id/diemnguphap"
+                android:layout_marginBottom="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/thi_background"
+                android:gravity="center"
+                android:text="Điểm Ngữ Pháp"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/drawer_list"
+        android:layout_width="300dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" >
+    </ListView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,583 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="exercise.List_BaiTap_Fragment" >
+
+    <!-- TODO: Uppate blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+			<LinearLayout 
+			    android:orientation="vertical"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content">
+			    
+			    <TextView
+                    android:id="@+id/testArticle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose the right answer."
+                    android:textColor="#005aaa"
+                    android:textSize="27sp" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose the correct answer."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+			</LinearLayout>
+                
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa1a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa1b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa1c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp" >
+
+                        <RadioButton
+                            android:id="@+id/pa2a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa2b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa2c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa3a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa3b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa3c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa4a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa4b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa4c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa5a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa5b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa5c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa6a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa6b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa6c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa7a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa7b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa7c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa8a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa8b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa8c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa9a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa9b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa9c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <!-- ==============================row 1 with single column =================================================== -->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/cauhoi10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:padding="18dip"
+                        android:text="1. Who won the world cup 2010"
+                        android:textSize="22sp" />
+                </TableRow>
+                <!-- row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/traloi10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/pa10a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Germany"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa10b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brazil"
+                            android:textSize="20sp" />
+
+                        <RadioButton
+                            android:id="@+id/pa10c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Italy"
+                            android:textSize="20sp" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1.1dp"
+                android:background="#009aaa" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonborder"
+                android:gravity="center"                
+                android:text="Finish"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
